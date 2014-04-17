@@ -28,7 +28,7 @@ public class ProteinBlast {
                 System.exit(1);
             }
     }
-    public static int[] costMatrix() throws FileNotFoundException{
+    public static int[] costMatrix(int cData[]) throws FileNotFoundException{
         String[] args = null;
          String filePath = args[0];
         File mathFile = new File(filePath);
